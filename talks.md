@@ -43,7 +43,11 @@ By Bill Venners
 # The interpreter pattern revisited
 By Rúnar Bjarnason (@runarorama)
 
-
+- Given an AST you can perform computations.
+- ADT's are little languages.
+- `def fold[B](z: B)(f: A => B): B` is a generic interpreter
+- Model the meaning / behaviour with different interpreters rather than different instances.
+  - Encode the structure and compute on that.
 
 # Scala Needs YOU!
 By Richard Wall
