@@ -87,6 +87,8 @@ object Test extends LowPriorityFoo {
 # Speed, Correctness, or Simplicity: Choose 3
 By Tom Switzer (@tixxit)
 
+- write macros so we don't over-allocate above the absolute minimum allocs needed
+  - Also uses value classes to just bind as references, not allocs
 
 # Path Dependent Types Through the Looking Glass
 By Owein (@OweinReese)
