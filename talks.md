@@ -55,6 +55,9 @@ By Rúnar Bjarnason (@runarorama)
 # Scala Needs YOU!
 By Richard Wall
 
+- `// todo (community)` is a well known feeling around scala
+- Discussions will occur on scala-internals
+- Stickers for contributors
 
 # Intervals: unifying uncertainty, ranges, and loops
 By Erik Osheim (@d6)
