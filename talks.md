@@ -38,8 +38,11 @@ By Bill Venners
   - Because scalaz is so general you get really obtuse results back
     - (pargeAge(19): Validation[String, Int]).filter(_ > 21) // Failure("") -- uhh??
 
+- Note: I think we still need `Failure`, `Error`, `Successful` types that have one-line uses and accumulation or `Failure` or `Error`.
+
 # The interpreter pattern revisited
 By Rúnar Bjarnason (@runarorama)
+
 
 
 # Scala Needs YOU!
