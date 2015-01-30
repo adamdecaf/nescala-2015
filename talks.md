@@ -48,6 +48,9 @@ By Rúnar Bjarnason (@runarorama)
 - `def fold[B](z: B)(f: A => B): B` is a generic interpreter
 - Model the meaning / behaviour with different interpreters rather than different instances.
   - Encode the structure and compute on that.
+  - [redis-algebra](https://github.com/ethul/redis-algebra) example
+- What's the tradeoff between using "old/existing" coding methods and having an AST that we can interprete in different ways.
+  - Then we're able to run trials, with a scala clone of [github scientist](https://github.com/github/scientist)?
 
 # Scala Needs YOU!
 By Richard Wall
