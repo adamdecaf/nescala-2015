@@ -68,6 +68,21 @@ By Erik Osheim (@d6)
 # Demystifying Type Inference
 By Jon Pretty (@propensive)
 
+- Little known fact, scalac's typer is just an intersection of super types.
+
+```scala
+def foo[T](implicit env: T): Unit = println(env)
+trait LowPriorityFoo {
+    implicit def environment: Int = 0
+}
+object Test extends LowPriorityFoo {
+  foo() // 0
+  object userland {
+    implicit def other: String = "hello"
+    foo() // "hello"
+  }
+}
+```
 
 # Speed, Correctness, or Simplicity: Choose 3
 By Tom Switzer (@tixxit)
