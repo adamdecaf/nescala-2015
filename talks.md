@@ -30,6 +30,13 @@ By Toby Matejovsky (@tobym)
 # Comparing functional error handling in Scalaz and Scalactic
 By Bill Venners
 
+## Comparing libraries
+
+- scalaz.{\/, Validation} vs Or
+  - Which one (from scalaz) do I use?
+  - Scalactic has `Every` which has subtypes of `One` or `Many` that can be accumulated
+  - Because scalaz is so general you get really obtuse results back
+    - (pargeAge(19): Validation[String, Int]).filter(_ > 21) // Failure("") -- uhh??
 
 # The interpreter pattern revisited
 By Rúnar Bjarnason (@runarorama)
