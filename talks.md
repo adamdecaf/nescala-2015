@@ -22,6 +22,10 @@ By: Mathias Doenitz (@sirthias)
 # A Sane Approach to (Micro)services
 By Toby Matejovsky (@tobym)
 
+## When should you use microservices?
+
+- When you have to coordinate two independent features for a deploy.
+  - If one breaks you have to rollback non-breaking (independent) changes.
 
 # Comparing functional error handling in Scalaz and Scalactic
 By Bill Venners
