@@ -62,6 +62,8 @@ By Richard Wall
 # Intervals: unifying uncertainty, ranges, and loops
 By Erik Osheim (@d6)
 
+- useful in tests, boundable Arbitrary for example
+  - or with error bounding
 
 # Demystifying Type Inference
 By Jon Pretty (@propensive)
