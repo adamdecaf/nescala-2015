@@ -93,14 +93,19 @@ By Tom Switzer (@tixxit)
 # Path Dependent Types Through the Looking Glass
 By Owein (@OweinReese)
 
+- convey a more specific context by specifying less, but carrying the env through
 
 # F-Bounded Polymorphism
 By Marconi Lanna (@ScalaFacts)
 
+- `trait Entity[E <: Entity[E]]` allows you to enforce that E is bounded by Entity[_]
+- `trait Entity[E <: Entity[E]] { self: E => }` forces the compiler to reject mixins that don't satisfy the mixer
 
 # Macros in data pipelines
 By Neville Li (@sinisa_lyh)
 
+- Similar to FPFilter, allows you to perform computations with a lower amount of actual java bytecode operations.
+  - e.g. allocs, register division
 
 # Selfish UIs - Fast UIs for terminal applications
 By Josh Suereth (@jsuereth)
