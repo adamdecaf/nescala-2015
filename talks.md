@@ -110,6 +110,7 @@ By Neville Li (@sinisa_lyh)
 # Selfish UIs - Fast UIs for terminal applications
 By Josh Suereth (@jsuereth)
 
+- write little apps to do tasks for you
 
 # We Won! How Scala Conquered Big Data
 By Dean Wampler (@deanwampler)
